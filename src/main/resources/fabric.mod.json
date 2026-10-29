@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "donutmarket",
+  "version": "1.5.1",
+  "name": "Donut Market",
+  "description": "Live DonutSMP prices from donutmarket.us in your tooltips, auction house and orders menus.",
+  "authors": [
+    "Caleb"
+  ],
+  "contact": {
+    "homepage": "https://donutmarket.us"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/donutmarket/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.donutmarket.mod.DonutMarketMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "donutmarket.mixins.json"
+  ]
+}
